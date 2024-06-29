@@ -27,6 +27,8 @@ popExample([1, 2, 3]);
 function shiftExample(arr) {
   console.log("Original Array:", arr);
 
+  // removes first element from array
+
   arr.shift();
   console.log("After shift:", arr);
 }
@@ -36,6 +38,8 @@ shiftExample([1, 2, 3]);
 function unshiftExample(arr, element) {
   console.log("Original Array:", arr);
 
+  // add given element to first index of array
+
   arr.unshift(element);
   console.log("After unshift:", arr);
 }
@@ -44,6 +48,8 @@ unshiftExample([1, 2, 3], 0);
 // concat()
 function concatExample(arr1, arr2) {
   console.log("Original Arrays:", arr1, arr2);
+
+  // add arr2 in arr1 
 
   let arr3 = arr1.concat(arr2);
   console.log("After concat:", arr3);
